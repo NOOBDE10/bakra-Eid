@@ -1,18 +1,101 @@
-
-
-body { text-align:center; font-family:sans-serif; background:#f7f3ee; }
-
-.header {
-  
-  background:#8b0000; color:white; padding:20px;
-  border-radius:0 0 20px 20px
-  text-decoration:0.3em underline;
+body{
+  background-color: rgb(216, 182, 123);
 }
 
-.cards { display:flex; justify-content:center; gap:20px; margin-top:40px; }
+body,About-Eid.html{
+  background-color: rgb(242, 213, 162);
+  margin: 0px;
+  padding: 0px;
+}
 
-.card {
-  background:rgb(230, 197, 156); padding:20px; width:120px;
-  border-radius:15px; font-size:22px;
-  box-shadow:0 5px 10px rgba(0,0,0,0.2);
+div{
+  padding: 13px;
+  border-radius: 15px;
+  }
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgb(186, 152, 69);
+  border-radius: 7px;
+  margin: equal;
+}
+
+h2{
+  color:black;
+  background-color: rgb(126, 221, 189);
+  background-origin: padding-box;
+  border-radius: 8px;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+h1{
+  text-align: center;
+  background-color:  rgb(135, 114, 9);
+  padding: 13px;
+  margin: 0px;
+  border-radius:15px;
+}
+
+ h3 p{
+  text-align:center;
+  background-origin: padding-box;
+  margin: 5px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+div img{
+  display:flex;
+  margin: 5px;
+  padding: 5px;
+  background-origin: padding-box;
+  border: radius 100px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  text-align: down;
+background-color: solid black;
+border: 2px solid black;
+padding:1px;
+margin: 100px;
+size: 2px;
+}
+
+div a{
+  text-decoration: none;
+  color:black; 
+}
+
+footer{
+  background-origin: padding-box;
+  border-radius: 8px; 
+}
+
+p{
+  margin: 10px;
+  padding: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color:black;
+  background-color: rgb(186, 152, 69);
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
 }
